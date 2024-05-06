@@ -1,11 +1,11 @@
 package main
 
 import (
-	"fmt"
-	salt "cryptography/Salting"
+	hmac "cryptography/HMAC"
 )
 
 func main() {
-	fmt.Println("hello world")
-	salt.HashingAndSalting()
+	// fmt.Println("hello world")
+	// salt.HashingAndSalting()
+	hmac.Hmac()
 }
